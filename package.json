@@ -10,7 +10,8 @@
     "mocha": "8.2.1"
   },
   "scripts": {
-    "test": "mocha **/*.spec.js --exit"
+    "test": "mocha **/*.spec.js --exit",
+    "test-single": "mocha $"
   },
   "keywords": [],
   "author": "",
