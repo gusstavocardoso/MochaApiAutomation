@@ -17,7 +17,7 @@ describe('PUT User', () => {
                 .query({id: "146"})
                 .send({
                     "name": "Gustavo Cardoso",
-                    "job": "Software Tester Automation"
+                    "job": "QA Engineer Automation"
                 })
                 .end((err, res) => {
                     expect(res).to.has.status(200);
