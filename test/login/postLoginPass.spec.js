@@ -9,7 +9,7 @@ const expect = chai.expect;
 
 describe('POST Login Sucess', () => {
 
-    context('Quando eu testo a API usando o método POST', () => {
+    //context('Quando eu testo a API usando o método POST', () => {
 
         it('Deve fazer login com sucesso', (done) => {
             request
