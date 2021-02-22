@@ -9,7 +9,7 @@ const expect = chai.expect;
 
 describe('GET User', () => {
 
-    context('Quando eu testo o user service usando o método GET', () => {
+    context('Quando eu testo o service user usando o método GET', () => {
 
         it('Deve listar todos os usuários', (done) => {
             request

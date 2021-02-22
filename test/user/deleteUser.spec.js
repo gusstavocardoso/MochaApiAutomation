@@ -9,7 +9,7 @@ const expect = chai.expect;
 
 describe('DELETE User', () => {
 
-    context('Quando eu testo o user service usando o método DELETE', () => {
+    context('Quando eu testo o service user usando o método DELETE', () => {
 
         it('Deve deletar um usuário', (done) => {
             request

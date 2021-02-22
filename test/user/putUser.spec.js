@@ -9,7 +9,7 @@ const expect = chai.expect;
 
 describe('PUT User', () => {
 
-    context('Quando eu testo user service o método PUT', () => {
+    context('Quando eu testo o service user o método PUT', () => {
 
         it('Deve atualzar o job do usuário', (done) => {
             request
@@ -17,7 +17,7 @@ describe('PUT User', () => {
                 .query({id: "146"})
                 .send({
                     "name": "Gustavo Cardoso",
-                    "job": "QA Engineer Automation"
+                    "job": "QA Automation Engineer"
                 })
                 .end((err, res) => {
                     expect(res).to.has.status(200);
