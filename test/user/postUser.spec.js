@@ -9,7 +9,7 @@ const expect = chai.expect;
 
 describe('POST User', () => {
 
-    context('Quando testo a API usando o método POST', () => {
+    context('Quando testo o user service usando o método POST', () => {
 
         it('Deve cadastrar um usuário', (done) => {
             request

@@ -9,7 +9,7 @@ const expect = chai.expect;
 
 describe('PUT User', () => {
 
-    context('Quando eu testo a API usando o método PUT', () => {
+    context('Quando eu testo user service o método PUT', () => {
 
         it('Deve atualzar o job do usuário', (done) => {
             request
